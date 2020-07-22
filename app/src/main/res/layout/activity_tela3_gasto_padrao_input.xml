@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activity.Tela3GastoPadraoInput">
+
+    <!-- /////////////////////////////// L A Y O U T D A T E L A /////////////////////////////// -->
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <!-- //////////////////////////////////// - TITULO - /////////////////////////////// -->
+            <TextView
+                android:id="@+id/ID0_textView_Dashboard"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Adicionar Gasto"
+                android:textColor="#202F65"
+                android:textSize="22dp"/>
+
+            <!-- /////////////////////////////////// - SUBTITULO - ///////////////////////////// -->
+            <TextView
+                android:layout_below="@id/ID0_textView_Dashboard"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_width="wrap_content"
+                android:text="Gerenciamento de Finanças"
+                android:textColor="#202F65"
+                android:textSize="14dp"/>
+
+            <!-- //////////////////////////////////// - IMAGEM - /////////////////////////////// -->
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_height="62dp"
+                android:layout_width="62dp"
+                android:src="@drawable/wallet"/>
+
+        </RelativeLayout>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis elementum nibh tellus molestie nunc non."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/ID3_Input_L_textView_NomeGasto"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:text="Nome: "
+            android:textColor="#202F65"
+            android:textSize="22dp"/>
+
+        <EditText
+            android:id="@+id/ID3_Input_L_editView_NomeGasto"
+            android:ems="18"
+            android:inputType="textPersonName"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="368dp" />
+
+        <TextView
+            android:id="@+id/ID3_Input_L_textView_ValorGasto"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:text="Valor do Gasto: "
+            android:textColor="#202F65"
+            android:textSize="22dp"/>
+
+        <EditText
+            android:id="@+id/ID3_Input_L_editView_ValorGasto"
+            android:ems="18"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="368dp" />
+
+        <TextView
+            android:id="@+id/ID3_Input_L_textView_DataGasto"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:text="Data do Gasto: "
+            android:textColor="#202F65"
+            android:textSize="22dp"/>
+
+        <DatePicker
+            android:id="@+id/ID3_Input_L_datePicker_DataGasto"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="81dp"
+            android:layout_marginTop="13dp"
+            android:layout_width="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/ID3_Input_L_imageButton_Adicionar"
+            android:background="@drawable/add"
+            android:layout_gravity="center"
+            android:layout_height="80dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

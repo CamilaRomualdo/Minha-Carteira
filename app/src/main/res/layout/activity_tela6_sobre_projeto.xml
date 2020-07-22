@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activity.Tela6SobreProjeto">
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <TextView
+                android:id="@+id/ID6_textView_Dashboard"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Sobre o Projeto"
+                android:textColor="#202F65"
+                android:textSize="22dp"/>
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <TextView
+                android:layout_below="@id/ID6_textView_Dashboard"
+                android:layout_marginTop="6dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Gerenciamento de Finanças"
+                android:textColor="#202F65"
+                android:textSize="14dp"/>
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_height="62dp"
+                android:layout_width="62dp"
+                android:src="@drawable/bank"/>
+
+        </RelativeLayout>
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+        <com.codesgood.views.JustifiedTextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis elementum nibh tellus molestie nunc non. Eu ultrices vitae auctor eu augue ut lectus arcu bibendum. Volutpat sed cras ornare arcu dui vivamus. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Turpis nunc eget lorem dolor sed viverra ipsum nunc. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Varius sit amet mattis vulputate enim nulla. Magna eget est lorem ipsum dolor sit amet. Id aliquet lectus proin nibh nisl condimentum id. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Est ullamcorper eget nulla facilisi etiam. Mauris ultrices eros in cursus turpis massa tincidunt. Justo donec enim diam vulputate. Vel pharetra vel turpis nunc. Ac tortor vitae purus faucibus ornare suspendisse sed."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis elementum nibh tellus molestie nunc non. Eu ultrices vitae auctor eu augue ut lectus arcu bibendum. Volutpat sed cras ornare arcu dui vivamus. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Turpis nunc eget lorem dolor sed viverra ipsum nunc. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Varius sit amet mattis vulputate enim nulla. Magna eget est lorem ipsum dolor sit amet. Id aliquet lectus proin nibh nisl condimentum id. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Est ullamcorper eget nulla facilisi etiam. Mauris ultrices eros in cursus turpis massa tincidunt. Justo donec enim diam vulputate. Vel pharetra vel turpis nunc. Ac tortor vitae purus faucibus ornare suspendisse sed."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis elementum nibh tellus molestie nunc non. Eu ultrices vitae auctor eu augue ut lectus arcu bibendum. Volutpat sed cras ornare arcu dui vivamus. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Turpis nunc eget lorem dolor sed viverra ipsum nunc. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Varius sit amet mattis vulputate enim nulla. Magna eget est lorem ipsum dolor sit amet. Id aliquet lectus proin nibh nisl condimentum id. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Est ullamcorper eget nulla facilisi etiam. Mauris ultrices eros in cursus turpis massa tincidunt. Justo donec enim diam vulputate. Vel pharetra vel turpis nunc. Ac tortor vitae purus faucibus ornare suspendisse sed."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</ScrollView>

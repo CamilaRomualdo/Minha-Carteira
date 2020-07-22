@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:background="@drawable/blue"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    tools:context=".activity.MainActivity">
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+        <RelativeLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <TextView
+                android:id="@+id/ID0_textView_Dashboard"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Minha Carteira"
+                android:textColor="#FFFFFF"
+                android:textSize="22dp"/>
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <TextView
+                android:layout_below="@id/ID0_textView_Dashboard"
+                android:layout_marginTop="6dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Gerenciamento de Finanças"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp"/>
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_height="62dp"
+                android:layout_width="62dp"
+                android:src="@drawable/wallet" />
+
+        </RelativeLayout>
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+        <GridLayout
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:rowCount="3">
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <androidx.cardview.widget.CardView
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:layout_rowWeight="1"
+                android:layout_width="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp">
+
+                <!-- /////////////////////////////////////////////////////////////////////////// -->
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- /////////////////////////////////////////////////////////////////////// -->
+                    <ImageView
+                        android:id="@+id/ID0_imageView_Analise"
+                        android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:src="@drawable/atm" />
+
+                    <!-- /////////////////////////////////////////////////////////////////////// -->
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:text="Análise"
+                        android:textColor="#202F65"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <androidx.cardview.widget.CardView
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:layout_rowWeight="1"
+                android:layout_width="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp">
+
+                <!-- /////////////////////////////////////////////////////////////////////////// -->
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- /////////////////////////////////////////////////////////////////////// -->
+                    <ImageView
+                        android:id="@+id/ID0_imageView_Colaboradores"
+                        android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:src="@drawable/resume" />
+
+                    <!-- /////////////////////////////////////////////////////////////////////// -->
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:text="Colaboradores"
+                        android:textColor="#202F65"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <androidx.cardview.widget.CardView
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:layout_rowWeight="1"
+                android:layout_width="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp">
+
+                <!-- /////////////////////////////////////////////////////////////////////////// -->
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- /////////////////////////////////////////////////////////////////////// -->
+                    <ImageView
+                        android:id="@+id/ID0_imageView_GastoPadrao"
+                        android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:src="@drawable/dollar" />
+
+                    <!-- /////////////////////////////////////////////////////////////////////// -->
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:text="Gastos Padrões"
+                        android:textColor="#202F65"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <androidx.cardview.widget.CardView
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:layout_rowWeight="1"
+                android:layout_width="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp">
+                <!-- /////////////////////////////////// - CARD - ////////////////////////////// -->
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- ////////////////////////////// - IMAGEM - ///////////////////////////// -->
+                    <ImageView
+                        android:id="@+id/ID0_imageView_GastoPrestacao"
+                        android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:src="@drawable/money" />
+
+                    <!-- /////////////////////////// - TEXTO (LINK) - ////////////////////////// -->
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:text="Prestações"
+                        android:textColor="#202F65"
+                        android:textSize="17dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <androidx.cardview.widget.CardView
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:layout_rowWeight="1"
+                android:layout_width="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp">
+
+                <!-- /////////////////////////////////// - CARD - ////////////////////////////// -->
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- ////////////////////////////// - IMAGEM - ///////////////////////////// -->
+                    <ImageView
+                        android:id="@+id/ID0_imageView_Requisitos"
+                        android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:src="@drawable/transfer" />
+
+                    <!-- /////////////////////////// - TEXTO (LINK) - ////////////////////////// -->
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:text="Requisitos"
+                        android:textColor="#202F65"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <androidx.cardview.widget.CardView
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:layout_rowWeight="1"
+                android:layout_width="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp">
+
+                <!-- /////////////////////////////////// - CARD - ////////////////////////////// -->
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- ////////////////////////////// - IMAGEM - ///////////////////////////// -->
+                    <ImageView
+                        android:id="@+id/ID0_imageView_SobreProjeto"
+                        android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:src="@drawable/bank" />
+
+                    <!-- /////////////////////////// - TEXTO (LINK) - ////////////////////////// -->
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:text="Sobre o Projeto"
+                        android:textColor="#202F65"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

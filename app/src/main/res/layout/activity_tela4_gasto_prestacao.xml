@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activity.Tela4GastoPrestacao">
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent">
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <TextView
+                android:id="@+id/ID4_textView_Dashboard"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Prestações"
+                android:textColor="#202F65"
+                android:textSize="22dp"/>
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <TextView
+                android:layout_below="@id/ID4_textView_Dashboard"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_width="wrap_content"
+                android:text="Gerenciamento de Finanças"
+                android:textColor="#202F65"
+                android:textSize="14dp"/>
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_height="62dp"
+                android:layout_width="62dp"
+                android:src="@drawable/money"/>
+
+        </RelativeLayout>
+
+        <!-- /////////////////////////////////////////////////////////////////////////////// -->
+        <ListView
+            android:id="@+id/ID4_listView_Prestracao"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:layout_marginTop="30dp" />
+
+        <!-- /////////////////////////////////////////////////////////////////////////////// -->
+        <TextView
+            android:id="@+id/ID4_textView_GP_Limpar"
+            android:layout_height="match_parent"
+            android:layout_marginTop="19dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:text="Limpar Lista"
+            android:textColor="#202F65"
+            android:textSize="14dp"/>
+
+        <ImageButton
+            android:id="@+id/ID4_imageButton_Adicionar"
+            android:background="@drawable/add"
+            android:layout_gravity="center"
+            android:layout_height="80dp"
+            android:layout_marginBottom="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_width="80dp"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

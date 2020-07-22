@@ -1,0 +1,4 @@
+#Mon Jul 20 17:54:18 BRT 2020
+base.0=C\:\\Users\\Camil\\Desktop\\PROJETOS QUE VAO PARA O GTIHUB\\TrabalhoPDM (OFICIAL)\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

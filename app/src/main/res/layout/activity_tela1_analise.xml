@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activity.Tela1Analise">
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent">
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <TextView
+                android:id="@+id/ID1_textView_Dashboard"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Análise"
+                android:textColor="#202F65"
+                android:textSize="22dp"/>
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <TextView
+                android:layout_below="@id/ID1_textView_Dashboard"
+                android:layout_marginTop="6dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Gerenciamento de Finanças"
+                android:textColor="#202F65"
+                android:textSize="14dp"/>
+
+            <!-- /////////////////////////////////////////////////////////////////////////////// -->
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_height="62dp"
+                android:layout_width="62dp"
+                android:src="@drawable/atm"/>
+
+        </RelativeLayout>
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:text="Lorem Ipsum"
+            android:textColor="#202F65"
+            android:textSize="30sp" />
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+        <com.codesgood.views.JustifiedTextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Lobortis elementum nibh tellus
+            molestie nunc non."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="3dip"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/noimage"/>
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="200dp"
+            android:layout_width="wrap_content"
+            android:text="Lorem Ipsum"
+            android:textColor="#202F65"
+            android:textSize="30sp" />
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+        <com.codesgood.views.JustifiedTextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Lobortis elementum nibh tellus
+            molestie nunc non."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dip"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/noimage"/>
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:text="Lorem Ipsum"
+            android:textColor="#202F65"
+            android:textSize="30sp" />
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+        <com.codesgood.views.JustifiedTextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Lobortis elementum nibh tellus
+            molestie nunc non."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="3dip"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/noimage"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activity.Tela5Requisitos">
+
+    <!-- /////////////////////////////// L A Y O U T D A T E L A /////////////////////////////// -->
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent">
+
+            <!-- //////////////////////////////////// - TITULO - /////////////////////////////// -->
+            <TextView
+                android:id="@+id/ID5_textView_Dashboard"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Requisitos"
+                android:textColor="#202F65"
+                android:textSize="22dp"/>
+
+            <!-- /////////////////////////////////// - SUBTITULO - ///////////////////////////// -->
+            <TextView
+                android:layout_below="@id/ID5_textView_Dashboard"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_width="wrap_content"
+                android:text="Gerenciamento de Finanças"
+                android:textColor="#202F65"
+                android:textSize="14dp"/>
+
+            <!-- //////////////////////////////////// - IMAGEM - /////////////////////////////// -->
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_height="62dp"
+                android:layout_width="62dp"
+                android:src="@drawable/transfer"/>
+
+        </RelativeLayout>
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+        <TextView
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_width="fill_parent"
+            android:text="Ambiente"
+            android:textColor="#202F65"
+            android:textSize="30dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:text="Este aplicativo foi desenvolvido em um ambiente que requer as seguintes configurações: "
+            android:textColor="#202F65"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:text="1) Android Studio +3.4.2"
+            android:textColor="#202F65"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:text="2) Java +8"
+            android:textColor="#202F65"
+            android:textSize="20dp"/>
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Desenvolvimento"
+            android:textColor="#202F65"
+            android:textSize="30dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:text="Aqui seguem as configurações e instalações necessárias para o funcionamento da aplicação:"
+            android:textColor="#202F65"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:text="1) Bibliotecas Necessárias:"
+            android:textColor="#202F65"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:text="    CardView + RecyclerView"
+            android:textColor="#202F65"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:text="    JustifiedTextView"
+            android:textColor="#202F65"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:src="@drawable/noimage"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
