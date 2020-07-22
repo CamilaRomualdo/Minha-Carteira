@@ -17,7 +17,7 @@ public class BancoDeDados extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        String sql = "CREATE TABLE TENTRES_TB(NOME  TEXT," +
+        String sql = "CREATE TABLE NOME_DO_BANCO(NOME  TEXT," +
                 " VALOR REAL, " +
                 " PRESTACAO REAL, " +
                 " DATA TEXT)";
@@ -39,7 +39,7 @@ public class BancoDeDados extends SQLiteOpenHelper {
         registro.put("PRESTACAO", numModelo);
         registro.put("DATA", dataModelo);
 
-        db.insert("TENTRES_TB" , null, registro);
+        db.insert("NOME_DO_BANCO" , null, registro);
 
         return true;
 
@@ -55,7 +55,7 @@ public class BancoDeDados extends SQLiteOpenHelper {
 //        registro.put("PRESTACAO",modelo.getNumModelo());
 //        registro.put("DATA",modelo.getDataModelo());
 //
-//        db.update("TENTRES_TB" , registro, null, null);
+//        db.update("NOME_DO_BANCO" , registro, null, null);
 //
 //    }
 //
@@ -63,7 +63,7 @@ public class BancoDeDados extends SQLiteOpenHelper {
 //
 //        SQLiteDatabase db = getWritableDatabase();
 //
-//        db.delete("PONTO_TB", null, null);
+//        db.delete("NOME_DO_BANCOB", null, null);
 //    }
 
     public void carregarDadoGastoPadrao(ArrayList<Modelo> lista) {
@@ -79,7 +79,7 @@ public class BancoDeDados extends SQLiteOpenHelper {
             É necessário criar uma condição para trazer todos os gastos da tabela que tiverem o campo PRESTACAO = -1
         */
         Cursor cursor;
-        cursor = db.query("TENTRES_TB",colunas,null,null,null,null,null);
+        cursor = db.query("NOME_DO_BANCO",colunas,null,null,null,null,null);
         if(cursor==null) {
             return;
         } else {
@@ -107,7 +107,7 @@ public class BancoDeDados extends SQLiteOpenHelper {
             É necessário criar uma condição para trazer todos os gastos do tabela que tiverem o campo PRESTACAO <> -1
         */
         Cursor cursor;
-        cursor = db.query("TENTRES_TB",colunas,null,null,null,null,null);
+        cursor = db.query("NOME_DO_BANCO",colunas,null,null,null,null,null);
         if(cursor==null) {
             return;
         } else {
@@ -128,7 +128,7 @@ public class BancoDeDados extends SQLiteOpenHelper {
 
         SQLiteDatabase db = getWritableDatabase();
 
-        db.delete("TENTRES_TB",null,null);
+        db.delete("NOME_DO_BANCO",null,null);
     }
 
 }
